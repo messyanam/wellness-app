@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Set background image for the body or a container div */
+body {
+    background-image: url('https://i.postimg.cc/jCMTVnNG/background-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin for body */
+    padding: 0; /* Remove default padding for body */
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+    color: #333; /* Dark color for text */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  /* Apply font to all elements */
+  * {
+    font-family: inherit; /* Inherit the font from the body element */
+    color: inherit; /* Inherit the color from the body element */
+    font-size: inherit; /* Inherit the font size from the body element */
+  }
+  
+  /* Specific styling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Make headings bold */
+  }
+  
