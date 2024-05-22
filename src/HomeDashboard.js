@@ -17,7 +17,7 @@ const HomeDashboard = () => {
   return (
     <div style={{ textAlign: 'center', position: 'relative' }}>
       {/* Image wrapper for the left corner */}
-      <div style={{ position: 'absolute', top: '100px', left: '50px' }}>
+      <div style={{ position: 'absolute', top: '100px', left: '500px' }}>
         <a  onClick={() => history("/home/dailygoal")} >
           <img
             src="https://i.postimg.cc/qzRQjBtN/Daily-Goal-PNG.png" // Provided image URL
@@ -27,7 +27,7 @@ const HomeDashboard = () => {
         </a>
       </div>
        {/* Second image wrapper */}
-       <div style={{ position: 'absolute', top: '100px', left: '500px' }}>
+       <div style={{ position: 'absolute', top: '300px', left: '500px' }}>
        <a  onClick={() => history("/home/nutrition")} >
           <img
             src="https://i.postimg.cc/LYsV4fqB/Nutrition-Tracking.png" // Updated image URL
@@ -37,7 +37,7 @@ const HomeDashboard = () => {
         </a>
       </div>
       {/* Third image wrapper */}
-      <div style={{ position: 'absolute', top: '100px', right: '150px' }}>
+      <div style={{ position: 'absolute', top: '500px', left: '500px' }}>
       <a  onClick={() => history("/home/physical")} >
           <img
             src="https://i.postimg.cc/svrfqRMy/Physical-Activity.png" // New image URL
@@ -47,7 +47,7 @@ const HomeDashboard = () => {
         </a>
       </div>
       {/* Image wrapper for the left corner */}
-      <div style={{ position: 'absolute', top: '350px', left: '50px' }}>
+      <div style={{ position: 'absolute', top: '700px', left: '500px' }}>
       <a  onClick={() => history("/home/sleep")} >
           <img
             src="https://i.postimg.cc/YqG9h3gN/Sleep-Tracking.png" // Provided image URL
@@ -57,7 +57,7 @@ const HomeDashboard = () => {
         </a>
       </div>
       {/* Second image wrapper */}
-      <div style={{ position: 'absolute', top: '350px', left: '500px' }}>
+      <div style={{ position: 'absolute', top: '900px', left: '500px' }}>
       <a  onClick={() => history("/home/metrics")} >
           <img
             src="https://i.postimg.cc/HLCgzGxz/Health-Metrics.png" // Updated image URL
@@ -67,7 +67,7 @@ const HomeDashboard = () => {
         </a>
       </div>
       {/* Third image wrapper */}
-      <div style={{ position: 'absolute', top: '350px', right: '150px' }}>
+      <div style={{ position: 'absolute', top: '1100px', left: '500px' }}>
       <a  onClick={() => history("/home/meditation")} >
           <img
             src="https://i.postimg.cc/2jtwbh2d/Meditation.png" // New image URL
@@ -77,7 +77,7 @@ const HomeDashboard = () => {
         </a>
       </div>
       {/* Second image wrapper */}
-      <div style={{ position: 'absolute', top: '600px', left: '500px' }}>
+      <div style={{ position: 'absolute', top: '1300px', left: '500px' }}>
       <a  onClick={() => history("/home/progress")} >
           <img
             src="https://i.postimg.cc/8k2c9zZB/Goal-Progress.png" // Updated image URL
